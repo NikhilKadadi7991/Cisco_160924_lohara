@@ -1,0 +1,12 @@
+# Ask the user to enter words separated by spaces
+user_input = input("Enter a list of words, separated by spaces: ")
+
+# Split the input string into a list of words
+word_list = user_input.split()
+
+# Print the resulting list
+print("Your list of words:", word_list)
+#Enter a list of words, separated by spaces: 
+#apple banana mango grape
+my_tuple = tuple(word_list)
+print(my_tuple)
